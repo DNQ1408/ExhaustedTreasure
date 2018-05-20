@@ -40,7 +40,7 @@ public class GameCanvas extends JPanel {
 
     public void runAll() {
         GameObjectManager.instance.runAll();
-        SceneManager.instance.performChangSecneIfNeeded();
+        SceneManager.instance.performChangSceneIfNeeded();
         KeyInput.instance.reset();
     }
 

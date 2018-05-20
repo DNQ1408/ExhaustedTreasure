@@ -7,7 +7,7 @@ public class SceneManager {
         this.nextScene = scene;
     }
 
-    public void performChangSecneIfNeeded(){
+    public void performChangSceneIfNeeded(){
         if (nextScene != null){
             if (this.currentScene != null){
                 this.currentScene.deinit();
