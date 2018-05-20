@@ -7,20 +7,24 @@ import game.player.player.Player;
 
 public class Camera extends GameObject{
 
-    public Vector2D CameraPosition;
-    public int width, height;
+//    public int width, height;
+    public Vector2D position;
 
-
-    public Camera(int width, int height) {
-        Player player = GameObjectManager.instance.findPlayer();
-        CameraPosition = player.position;
-        this.width = width;
-        this.height = height;
+    public Camera(Vector2D position) {
+        this.position = position;
     }
 
     @Override
     public void run() {
         super.run();
+        Player player = GameObjectManager.instance.findPlayer();
+    }
 
+    public Vector2D getAfterCameraPosition(Vector2D position) {
+        Vector2D afterCameraPosition = new Vector2D();
+        afterCameraPosition.x = position.x - this.position.x;
+        afterCameraPosition.y = position.y - this.position.y;
+        return afterCameraPosition;
     }
 }
+
