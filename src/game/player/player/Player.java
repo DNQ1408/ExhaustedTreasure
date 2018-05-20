@@ -26,6 +26,43 @@ public class Player extends GameObject implements PhysicBody, HitObject {
     private boolean isAnimation;
     private FrameCounter frameCounter;
     ImageRenderer imageRenderer1;
+    public AnimationRenderer upAnimation = new AnimationRenderer(6,"resources/images/Player/playerMY.png",
+            "resources/playerMy1.png",
+            "resources/playerMy2.png",
+            "resources/playerMy3.png",
+            "resources/playerMy4.png",
+            "resources/playerMy5.png",
+            "resources/playerMy6.png",
+            "resources/playerMy7.png",
+            "resources/playerMy8.png",
+            "resources/playerMy9.png",
+            "resources/playerMy10.png");
+    public AnimationRenderer downAnimation = new AnimationRenderer(6,"resources/playerMy10.png",
+            "resources/playerMy12.png",
+            "resources/playerMy13.png",
+            "resources/playerMy14.png",
+            "resources/playerMy15.png",
+            "resources/playerMy16.png",
+            "resources/playerMy17.png",
+            "resources/playerMy18.png",
+            "resources/playerMy19.png",
+            "resources/images/Player/playerMY.png");
+    public AnimationRenderer rightAnimation = new AnimationRenderer(6,"resources/images/Player/playerMY.png",
+            "resources/playerMy1.png",
+            "resources/playerMy2.png",
+            "resources/playerMy3.png",
+            "resources/playerMy4.png",
+            "resources/playerMy5.png");
+    public AnimationRenderer leftAnimation = new AnimationRenderer(false,30,"resources/playerMy10.png",
+            "resources/playerMy12.png",
+            "resources/playerMy13.png",
+            "resources/playerMy14.png",
+            "resources/playerMy15.png",
+            "resources/playerMy16.png"
+            );
+//    public AnimationRenderer leftAnimation1 = new AnimationRenderer(true,10, "resources/playerMy16.png");
+
+
     public Player() {
         this.frameCounter = new FrameCounter(50);
         this.bulletPlayer = new BulletPlayer();
@@ -33,10 +70,11 @@ public class Player extends GameObject implements PhysicBody, HitObject {
         this.velocity = new Vector2D(0, 0);
         this.position = new Vector2D(500,300);
         imageRenderer1 = new ImageRenderer("resources/images/Player/playerMY.png",50,70);
-        this.animationRenderer = new AnimationRenderer(2,
-                "resources/images/Player/playerMY.png",// quay xuống
-                "resources/images/Player/playerMy3.png");// quay trái
+//        this.animationRenderer = new AnimationRenderer(2,
+//                "resources/images/Player/playerMY.png",// quay xuống
+//                "resources/images/Player/playerMy3.png");// quay trái
         this.renderer = this.imageRenderer1;
+
 
     }
 
@@ -56,33 +94,40 @@ public class Player extends GameObject implements PhysicBody, HitObject {
     public void handleEventKeyboard(Player player){
 
         if (KeyInput.instance.upPressed){
-            this.defaultVelocity.set(0, -2);
+            this.velocity.y += 1;
+            this.defaultVelocity.set(0,this.velocity.y);
         }
         if (KeyInput.instance.upReleased){
-            this.defaultVelocity.set(0, 0);
+            this.defaultVelocity.set(0, this.velocity.y);
         }
         if (KeyInput.instance.downPressed){
-            this.defaultVelocity.set(0, 2);
-//                SceneManager.instance.changScene(new GamePlayerRight());
+            this.velocity.y += -1;
+            this.defaultVelocity.set(0,this.velocity.y);
+            if (this.velocity.y <= 0){
+                this.defaultVelocity.set(0, 0);
+            }
         }
         if (KeyInput.instance.downReleased){
-            this.defaultVelocity.set(0, 0);
+
+
         }
 
         if (KeyInput.instance.rightPressed){
-            this.defaultVelocity.set(2, 0);
+
+            player.renderer = this.rightAnimation;
         }
         if (KeyInput.instance.rightReleased){
             this.defaultVelocity.set(0, 0);
         }
         if (KeyInput.instance.leftPressed){
-            this.defaultVelocity.set(-2, 0);
+            player.renderer = this.leftAnimation;
+//            player.renderer = this.leftAnimation1;
 //                this.renderer = this.animationRenderer;
 //                this.isAnimation = true;
         }
         if (KeyInput.instance.leftReleased){
 //                this.defaultVelocity.set(0, 0);
-            this.isAnimation = false;
+//            this.isAnimation = false;
         }
         if (KeyInput.instance.spacePressed){
 

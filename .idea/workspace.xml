@@ -1,14 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="579757a4-1447-4bdf-b402-5b44333686fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/camera/Camera.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/game/player/Playered/Player.java" />
+    <list default="true" id="579757a4-1447-4bdf-b402-5b44333686fc" name="Default" comment="add">
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy16.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy18.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/playerMy9.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/game/enemy/EnemySpawner.java" afterPath="$PROJECT_DIR$/src/game/enemy/EnemySpawner.java" />
-      <change beforePath="$PROJECT_DIR$/src/game/player/Playered/Playered.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/game/player/bullet/BulletPlayer.java" afterPath="$PROJECT_DIR$/src/game/player/bullet/BulletPlayer.java" />
-      <change beforePath="$PROJECT_DIR$/src/game/player/bullet/ShootTriple.java" afterPath="$PROJECT_DIR$/src/game/player/bullet/ShootTriple.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Constant/ConStant$Player.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Constant/ConStant$Player.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Constant/ConStant$Windows.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Constant/ConStant$Windows.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Constant/ConStant.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Constant/ConStant.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameCanvas.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameCanvas.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameWindow$1.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameWindow$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameWindow.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameWindow.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Main.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GameOver.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GameOver.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GamePlayLeft.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GamePlayLeft.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GamePlayScene.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GamePlayScene.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GamePlayerRight.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GamePlayerRight.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/Scene.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/Scene.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/SceneManager.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/SceneManager.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/FrameCounter.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/FrameCounter.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/GameObject.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/GameObject.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/GameObjectManager.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/GameObjectManager.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/Vector2D.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/Vector2D.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/camera/Camera.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/camera/Camera.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/TextObject.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/TextObject.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/background/Background.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/background/Background.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/Enemy.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/Enemy.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/EnemyMove.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/EnemyMove.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/EnemySpawner.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/EnemySpawner.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/particle/Particle.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/particle/Particle.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/BulletPlayer$ShootSingle.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/BulletPlayer$ShootSingle.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/BulletPlayer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/BulletPlayer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/Shoot.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/Shoot.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/ShootTriple.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/ShootTriple.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/Player.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/Player.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerAnimation.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerAnimation.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerDow.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerDow.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerLeft.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerLeft.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerRenderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerRenderer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerRight.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerRight.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerShoot.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerShoot.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/input/KeyInput.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/input/KeyInput.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/BoxCollider.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/BoxCollider.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/HitObject.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/HitObject.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/PhysicBody.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/PhysicBody.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/RunHitObject.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/RunHitObject.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/AnimationRenderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/AnimationRenderer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/BackgroundRenderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/BackgroundRenderer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/ImageRenderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/ImageRenderer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/PolygonRenderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/PolygonRenderer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/Renderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/Renderer.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/TextRenderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/TextRenderer.class" />
+      <change beforePath="$PROJECT_DIR$/src/game/player/player/Player.java" afterPath="$PROJECT_DIR$/src/game/player/player/Player.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +84,7 @@
       <file leaf-file-name="GameCanvas.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameCanvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="360">
               <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
               <folding />
             </state>
@@ -33,7 +94,7 @@
       <file leaf-file-name="GameWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
+            <state relative-caret-position="48">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
@@ -50,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoxCollider.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BoxCollider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/physic/BoxCollider.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,7 +124,7 @@
       <file leaf-file-name="BackgroundRenderer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/renderer/BackgroundRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="96">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
@@ -73,7 +134,7 @@
       <file leaf-file-name="Vector2D.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/Vector2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
+            <state relative-caret-position="48">
               <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
@@ -83,17 +144,17 @@
       <file leaf-file-name="ConStant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Constant/ConStant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="168">
               <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/game/player/player/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="-168">
               <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding />
             </state>
@@ -103,7 +164,7 @@
       <file leaf-file-name="PlayerAnimation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/player/player/PlayerAnimation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="96">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
@@ -113,7 +174,7 @@
       <file leaf-file-name="PlayerDow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game/player/player/PlayerDow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="96">
               <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
@@ -201,105 +262,41 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
+              <item name="ExhaustedTreasure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExhaustedTreasure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ExhaustedTreasure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExhaustedTreasure" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="camera" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="background" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="particle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="player" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="player" type="462c0819:PsiDirectoryNode" />
-              <item name="bullet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="player" type="462c0819:PsiDirectoryNode" />
-              <item name="player" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="physic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="renderer" type="462c0819:PsiDirectoryNode" />
+              <item name="ExhaustedTreasure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExhaustedTreasure" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\131kimbai\Desktop\Project\ExhaustedTreasure\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\131kimbai\IdeaProjects\ExhaustedTreasure\src" />
       <recent name="C:\Users\131kimbai\IdeaProjects\ExhaustedTreasure" />
@@ -458,7 +455,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -468,13 +465,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1659506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.168429" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -487,6 +483,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -550,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -596,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,9 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,22 +603,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#741#742#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/Playered/Playered.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/player/Playered/Playered.java" />
     <entry file="file://$PROJECT_DIR$/src/game/player/bullet/BulletPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -642,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,30 +663,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Tempo/GameCanvas.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <marker date="1526796332114" expanded="true" signature="0:104" ph="/.../" />
-            <marker date="1526796332114" expanded="false" signature="113:341" ph="..." />
-            <marker date="1526796332114" expanded="true" signature="480:648" ph="{...}" />
-            <marker date="1526796332114" expanded="true" signature="687:812" ph="{...}" />
-            <marker date="1526796332114" expanded="false" signature="859:870" ph=" { " />
-            <marker date="1526796332114" expanded="false" signature="928:934" ph=" }" />
-            <marker date="1526796332114" expanded="true" signature="964:1056" ph="{...}" />
-            <marker date="1526796332114" expanded="true" signature="1083:1229" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Tempo/GameCanvas.class" />
     <entry file="file://$PROJECT_DIR$/src/Scene/GamePlayScene.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -719,11 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,7 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="10" column="70" lean-forward="false" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,13 +727,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="58" column="4" lean-forward="true" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/base/Vector2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
+        <state relative-caret-position="48">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
@@ -793,23 +740,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Constant/ConStant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="168">
           <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/player/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/player/player/PlayerAnimation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="96">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
@@ -817,7 +756,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game/player/player/PlayerDow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="96">
           <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
@@ -825,7 +764,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/renderer/BackgroundRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="96">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
@@ -833,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameCanvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="360">
           <caret line="23" column="56" lean-forward="false" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
           <folding />
         </state>
@@ -841,7 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
+        <state relative-caret-position="48">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
@@ -858,7 +797,15 @@
     <entry file="file://$PROJECT_DIR$/src/physic/BoxCollider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/game/player/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
