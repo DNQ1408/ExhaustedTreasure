@@ -1,11 +1,10 @@
-package game.player.Playered;
+package game.player.player;
 
-import renderer.AnimationRenderer;
 import renderer.ImageRenderer;
 
 import java.util.ArrayList;
 
-public class PlayeredAnimation {
+public class PlayerAnimation {
     private String name;
 
     private boolean isRepeated;
@@ -19,7 +18,7 @@ public class PlayeredAnimation {
 
     private boolean drawRectFrame;//dùng đẻ vẽ ô bao quanh hình;
 
-    public PlayeredAnimation() {
+    public PlayerAnimation() {
         delayFrame = new ArrayList<Double>();
         beginTime = 0;
         currentFrame = 0;
@@ -30,18 +29,18 @@ public class PlayeredAnimation {
         drawRectFrame = false;//ko cho ve
     }
 
-    public PlayeredAnimation (PlayeredAnimation playeredAnimation){
-        beginTime = playeredAnimation.beginTime;
-        currentFrame = playeredAnimation.currentFrame;
-        drawRectFrame = playeredAnimation.drawRectFrame;
-        isRepeated = playeredAnimation.isRepeated;
+    public PlayerAnimation(PlayerAnimation playerAnimation){
+        beginTime = playerAnimation.beginTime;
+        currentFrame = playerAnimation.currentFrame;
+        drawRectFrame = playerAnimation.drawRectFrame;
+        isRepeated = playerAnimation.isRepeated;
 
         delayFrame = new ArrayList<Double>();
-        for (Double d : playeredAnimation.delayFrame){
+        for (Double d : playerAnimation.delayFrame){
             delayFrame.add(d);
         }
         imageRenderers = new ArrayList<ImageRenderer>();
-        for (ImageRenderer i : playeredAnimation.imageRenderers){
+        for (ImageRenderer i : playerAnimation.imageRenderers){
             i.loadImage("");
         }
     }

@@ -1,4 +1,4 @@
-package game.player.Playered;
+package game.player.player;
 
 import Scene.GamePlayScene;
 import Scene.SceneManager;
@@ -14,15 +14,15 @@ import renderer.ImageRenderer;
 
 public class PlayerRight extends GameObject implements HitObject, PhysicBody{
     public Vector2D velocity;
-    public Playered playered;
+    public Player player;
     private Vector2D defaultVelocity = new Vector2D(0, 0);
     public ShootTriple shootTriple;
 
     public PlayerRight() {
         this.shootTriple = new ShootTriple();
-        this.playered = new Playered();
+        this.player= new Player();
         this.velocity = new Vector2D();
-        this.position.set(playered.position);
+        this.position.set(player.position);
         this.renderer = new ImageRenderer("resources/images/Player/playerMY.png",50,70);
     }
     @Override

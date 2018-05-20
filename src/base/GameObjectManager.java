@@ -1,5 +1,6 @@
 package base;
 
+import game.player.player.Player;
 import physic.BoxCollider;
 import physic.PhysicBody;
 
@@ -72,6 +73,15 @@ public class GameObjectManager {
                     BoxCollider other = ((PhysicBody) gameObject).getBoxCollider();
                     return boxCollide.checkCollider(other);
                 })
+                .findFirst()
+                .orElse(null);
+    }
+
+    public Player findPlayer() {
+        return (Player) this.list
+                .stream()
+                .filter(gameObject -> gameObject instanceof Player)
+                .filter(gameObject -> gameObject.isAlive)
                 .findFirst()
                 .orElse(null);
     }

@@ -1,9 +1,8 @@
 package Scene;
 
-import base.GameObject;
 import base.GameObjectManager;
 import game.background.Background;
-import game.player.Playered.PlayerRight;
+import game.player.player.PlayerRight;
 
 public class GamePlayerRight implements Scene {
     @Override

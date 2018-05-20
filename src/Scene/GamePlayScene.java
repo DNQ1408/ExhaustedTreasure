@@ -3,8 +3,6 @@ package Scene;
 import base.GameObjectManager;
 import game.background.Background;
 import game.enemy.EnemySpawner;
-import game.player.Playered.PlayerDow;
-import game.player.Playered.PlayerLeft;
 import game.player.Playered.Playered;
 
 public class GamePlayScene implements Scene {

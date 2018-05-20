@@ -11,9 +11,6 @@ public class EnemySpawner extends GameObject {
         super.run();
         Enemy enemy = GameObjectManager.instance.recycle(Enemy.class);
         enemy.position.set(new Vector2D(800, 400));
-        if (enemy != null) {
-            System.out.println("Enemy existing");
-        }
 
     }
 }

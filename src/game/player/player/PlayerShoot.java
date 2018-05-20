@@ -1,4 +1,4 @@
-package game.player.Playered;
+package game.player.player;
 
 import base.FrameCounter;
 import game.player.bullet.BulletPlayer;
@@ -20,12 +20,12 @@ public class PlayerShoot {
         this.shoot = this.shootSingle;
     }
 
-//    public void run(Playered playered) {
+//    public void run(Player player) {
 //        if (this.isPlayerShoot) {
 //            if (this.frameCounter.run()) {
 ////             this.shootSingle.run(player);
 //             //xét thêm boxclloder nữa để chuyển giữa 2 kiểu đạn
-//             this.shootTriple.run(playered);
+//             this.shootTriple.run(player);
 //                this.frameCounter.reset();
 //            }
 //        } else {

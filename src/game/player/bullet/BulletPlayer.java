@@ -47,11 +47,11 @@ public class BulletPlayer extends GameObject implements PhysicBody, HitObject {
 
     public static class ShootSingle implements Shoot {
     //    @Override
-    //    public void run(Playered playered) {
+    //    public void run(Player player) {
     //        BulletPlayer bulletPlayer = GameObjectManager.instance.recycle(BulletPlayer.class);
-    //        bulletPlayer.position.set(playered.position);
+    //        bulletPlayer.position.set(player.position);
     //        Vector2D vector2D = new Vector2D(7, 0);
-    //        Vector2D rotate = vector2D.rotate(playered.playeredMove.angle);
+    //        Vector2D rotate = vector2D.rotate(player.playerMove.angle);
     //        bulletPlayer.velocity.set(rotate);
     //    }
     }

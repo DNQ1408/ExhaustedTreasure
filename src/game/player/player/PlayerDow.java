@@ -1,21 +1,20 @@
-package game.player.Playered;
+package game.player.player;
 
 import base.GameObject;
 import base.Vector2D;
 import renderer.ImageRenderer;
 
-public class PlayerLeft extends GameObject {
+public class PlayerDow extends GameObject {
     public Vector2D velocity;
-    public PlayerLeft() {
+    public PlayerDow() {
         this.velocity = new Vector2D();
-        this.position.set(500,500);
-        this.renderer = new ImageRenderer("resources/images/Player/playL.png",100,50);
+        this.position.set(10,60);
+        this.renderer = new ImageRenderer("resources/images/Player/playDow.png",50,100);
     }
     @Override
     public void run(){
         super.run();
         this.position.addUp(this.velocity);
-        this.velocity.set(-1,0);
+        this.velocity.set(0,-1);
     }
-
 }
