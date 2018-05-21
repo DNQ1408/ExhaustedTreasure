@@ -6,6 +6,11 @@ import camera.Camera;
 import game.background.Background;
 import game.enemy.EnemySpawner;
 import game.player.player.Player;
+import game.skerry.Skerry;
+import game.skerry.SkerryShow;
+import game.treasure.Treasure;
+import physic.BoxCollider;
+import renderer.ImageRenderer;
 
 public class GamePlayScene implements Scene {
 
@@ -20,6 +25,16 @@ public class GamePlayScene implements Scene {
         GameObjectManager.instance.recycle(EnemySpawner.class);
 //        GameObjectManager.instance.recycle(PlayerLeft.class);
 //        GameObjectManager.instance.recycle(PlayerDow.class);
+
+
+        SkerryShow skerryShow = new SkerryShow();
+
+        //show treasure
+        Treasure treasure = GameObjectManager.instance.recycle(Treasure.class);
+        treasure.position.set(1990, 1990);
+        treasure.renderer = new ImageRenderer("resources/images/Treasure/Treasure.png", 50, 70);
+        treasure.boxCollider = new BoxCollider(50, 70);
+
 
 
     }
