@@ -2,121 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f87c4d-87ff-462a-9df9-2a571e1b3c5c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/renderer/CurrentAnimationRenderer.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Project.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Constant/ConStant$Player.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Constant/ConStant$Windows.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Constant/ConStant$Windows.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Constant/ConStant.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Constant/ConStant.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameCanvas.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameCanvas.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameWindow$1.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameWindow$1.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameWindow.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/GameWindow.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Main.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GameOver.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GameOver.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GamePlayLeft.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GamePlayScene.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GamePlayScene.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/GamePlayerRight.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/Scene.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/Scene.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/SceneManager.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/Scene/SceneManager.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/FrameCounter.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/FrameCounter.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/GameObject.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/GameObject.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/GameObjectManager.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/GameObjectManager.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/Vector2D.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/base/Vector2D.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/camera/Camera.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/camera/Camera.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/TextObject.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/TextObject.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/background/Background.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/background/Background.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/Enemy.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/Enemy.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/EnemyMove.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/EnemyMove.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/EnemySpawner.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/enemy/EnemySpawner.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/particle/Particle.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/particle/Particle.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/BulletPlayer$ShootSingle.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/BulletPlayer$ShootSingle.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/BulletPlayer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/BulletPlayer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/Shoot.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/Shoot.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/bullet/ShootTriple.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/Player.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/Player.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerAnimation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerDow.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerLeft.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerRenderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerRenderer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerRight.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerShoot.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/game/player/player/PlayerShoot.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/input/KeyInput.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/input/KeyInput.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/BoxCollider.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/BoxCollider.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/HitObject.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/HitObject.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/PhysicBody.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/PhysicBody.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/RunHitObject.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/physic/RunHitObject.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/AnimationRenderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/AnimationRenderer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/BackgroundRenderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/BackgroundRenderer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/ImageRenderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/ImageRenderer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/PolygonRenderer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/Renderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/Renderer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/TextRenderer.class" afterPath="$PROJECT_DIR$/out/production/ExhaustedTreasure/renderer/TextRenderer.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Constant/ConStant$Player.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Constant/ConStant$Windows.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Constant/ConStant.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/GameCanvas.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/GameWindow$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/GameWindow.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Scene/GameOver.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Scene/GamePlayLeft.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Scene/GamePlayScene.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Scene/GamePlayerRight.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Scene/Scene.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/Scene/SceneManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/base/FrameCounter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/base/GameObject.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/base/GameObjectManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/base/Vector2D.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/camera/Camera.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/TextObject.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/background/Background.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/enemy/Enemy.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/enemy/EnemyMove.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/enemy/EnemySpawner.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/particle/Particle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/player/bullet/BulletPlayer$ShootSingle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/player/bullet/BulletPlayer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/player/bullet/Shoot.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/player/bullet/ShootTriple.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/player/player/Player.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/player/player/PlayerAnimation.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/player/player/PlayerDow.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/player/player/PlayerLeft.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/player/player/PlayerRenderer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/player/player/PlayerRight.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/game/player/player/PlayerShoot.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/input/KeyInput.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/physic/BoxCollider.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/physic/HitObject.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/physic/PhysicBody.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/physic/RunHitObject.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/renderer/AnimationRenderer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/renderer/BackgroundRenderer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/renderer/ImageRenderer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/renderer/PolygonRenderer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/renderer/Renderer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Project/renderer/TextRenderer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Constant/ConStant.java" afterPath="$PROJECT_DIR$/src/Constant/ConStant.java" />
       <change beforePath="$PROJECT_DIR$/src/GameCanvas.java" afterPath="$PROJECT_DIR$/src/GameCanvas.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scene/GamePlayLeft.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/Scene/GamePlayScene.java" afterPath="$PROJECT_DIR$/src/Scene/GamePlayScene.java" />
-      <change beforePath="$PROJECT_DIR$/src/Scene/GamePlayerRight.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Scene/Scene.java" afterPath="$PROJECT_DIR$/src/Scene/Scene.java" />
       <change beforePath="$PROJECT_DIR$/src/base/GameObjectManager.java" afterPath="$PROJECT_DIR$/src/base/GameObjectManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/camera/Camera.java" afterPath="$PROJECT_DIR$/src/camera/Camera.java" />
-      <change beforePath="$PROJECT_DIR$/src/game/player/bullet/ShootTriple.java" afterPath="$PROJECT_DIR$/src/game/player/player/PlayerShoot.java" />
-      <change beforePath="$PROJECT_DIR$/src/game/player/player/Player.java" afterPath="$PROJECT_DIR$/src/game/player/player/Player.java" />
-      <change beforePath="$PROJECT_DIR$/src/game/player/player/PlayerAnimation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/game/player/player/PlayerDow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/game/player/player/PlayerLeft.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/game/player/player/PlayerRight.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/input/KeyInput.java" afterPath="$PROJECT_DIR$/src/input/KeyInput.java" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/ImageRenderer.java" afterPath="$PROJECT_DIR$/src/renderer/ImageRenderer.java" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/PolygonRenderer.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -128,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/game/player/player/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-257">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GameObjectManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/GameObjectManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-858">
-              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="675">
+              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,9 +42,32 @@
       <file leaf-file-name="GameCanvas.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GameCanvas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="189">
+              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GamePlayScene.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Scene/GamePlayScene.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Camera.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/camera/Camera.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="28" column="29" lean-forward="false" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+              <folding>
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,11 +89,11 @@
         <option value="$PROJECT_DIR$/src/GameWindow.java" />
         <option value="$PROJECT_DIR$/src/game/background/Background.java" />
         <option value="$PROJECT_DIR$/src/renderer/ImageRenderer.java" />
-        <option value="$PROJECT_DIR$/src/Scene/GamePlayScene.java" />
         <option value="$PROJECT_DIR$/src/game/player/player/Player.java" />
         <option value="$PROJECT_DIR$/src/physic/BoxCollider.java" />
         <option value="$PROJECT_DIR$/src/camera/Camera.java" />
         <option value="$PROJECT_DIR$/src/base/GameObjectManager.java" />
+        <option value="$PROJECT_DIR$/src/Scene/GamePlayScene.java" />
         <option value="$PROJECT_DIR$/src/GameCanvas.java" />
       </list>
     </option>
@@ -228,6 +152,21 @@
               <item name="ExhaustedTreasure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExhaustedTreasure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExhaustedTreasure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExhaustedTreasure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExhaustedTreasure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ExhaustedTreasure" type="b2602c69:ProjectViewProjectNode" />
@@ -400,12 +339,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -495,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scene/GamePlayScene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GameWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -560,13 +492,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/player/player/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/Scene/SceneManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/GameObjectManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -581,26 +519,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/GameObjectManager.java">
+    <entry file="file://$PROJECT_DIR$/src/game/player/player/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="-257">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Scene/SceneManager.java">
+    <entry file="file://$PROJECT_DIR$/src/Scene/GamePlayScene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameCanvas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="189">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
         </state>
       </provider>

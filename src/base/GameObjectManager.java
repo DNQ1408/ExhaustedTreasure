@@ -96,6 +96,10 @@ public class GameObjectManager {
 
     public void getPositionAfterCamera() {
         Camera camera = GameObjectManager.instance.findCamera();
+        if (camera == null) {
+            System.out.println("camera null");
+            return;
+        }
         this.list
                 .stream()
                 .forEach(gameObject -> {
