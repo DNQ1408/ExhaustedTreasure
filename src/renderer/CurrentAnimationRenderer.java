@@ -19,8 +19,8 @@ public class CurrentAnimationRenderer implements Renderer {
     public boolean isAnimation = true;
     public double angle;
 
-    public CurrentAnimationRenderer( int max, String... paths) {
-        this.frameCounter = new FrameCounter(max);
+    public CurrentAnimationRenderer( int timeInterval, String... paths) {
+        this.frameCounter = new FrameCounter(timeInterval);
         this.images = new ArrayList<>();
         Arrays.asList(paths).forEach(path -> images.add(loadImage(path)));
         this.currentIndex = 0;
@@ -54,16 +54,14 @@ public class CurrentAnimationRenderer implements Renderer {
         if (!isAnimation) return;
         if (this.frameCounter.run()) {
             this.angle += 18;
-            if (this.angle >= 360){
+            if (this.angle > 360){
                 this.angle = 0;
             }
-
             if (this.currentIndex >= this.images.size() - 1) {
                 this.currentIndex = 0;
             } else {
                 this.currentIndex += 1;
             }
-
             this.frameCounter.reset();
         }
 
@@ -73,7 +71,7 @@ public class CurrentAnimationRenderer implements Renderer {
         if (!isAnimation) return;
         if (this.frameCounter.run()) {
             this.angle -= 18;
-            if (this.angle >= 360){
+            if (this.angle > 360){
                 this.angle = 0;
             }
 

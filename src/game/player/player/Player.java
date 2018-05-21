@@ -22,49 +22,52 @@ public class Player extends GameObject implements PhysicBody, HitObject {
     public ImageRenderer imageRenderer;
     private boolean is = true;
     public Player() {
-        this.imageRenderer = new ImageRenderer("resources/images/Player/playerMY.png");
+        this.imageRenderer = new ImageRenderer("resources/images/Player/ship (4)-1.png");
         this.renderer = this.imageRenderer;
         this.velocity = new Vector2D();
         this.playerShoot = new PlayerShoot();
-        this.currentAnimationRendererLeft = new CurrentAnimationRenderer(5, "resources/images/Player/playerMY.png",
-                "resources/playerMy1.png",
-                "resources/playerMy2.png",
-                "resources/playerMy3.png",
-                "resources/playerMy5.png",
-                "resources/playerMy6.png",
-                "resources/playerMy7.png",
-                "resources/playerMy8.png",
-                "resources/playerMy9.png",
-                "resources/playerMy10.png",
-                "resources/playerMy11.png",
-                "resources/playerMy12.png",
-                "resources/playerMy13.png",
-                "resources/playerMy14.png",
-                "resources/playerMy15.png",
-                "resources/playerMy16.png",
-                "resources/playerMy17.png",
-                "resources/playerMy18.png",
-                "resources/playerMy19.png"
+        this.currentAnimationRendererLeft = new CurrentAnimationRenderer(0, "resources/images/Player/ship (4)-1.png",
+                "resources/images/Player/ship (4)-2.png",
+                "resources/images/Player/ship (4)-3.png",
+                "resources/images/Player/ship (4)-4.png",
+                "resources/images/Player/ship (4)-5.png",
+                "resources/images/Player/ship (4)-6.png",
+                "resources/images/Player/ship (4)-7.png",
+                "resources/images/Player/ship (4)-8.png",
+                "resources/images/Player/ship (4)-9.png",
+                "resources/images/Player/ship (4)-10.png",
+                "resources/images/Player/ship (4)-11.png",
+                "resources/images/Player/ship (4)-12.png",
+                "resources/images/Player/ship (4)-13.png",
+                "resources/images/Player/ship (4)-14.png",
+                "resources/images/Player/ship (4)-15.png",
+                "resources/images/Player/ship (4)-16.png",
+                "resources/images/Player/ship (4)-17.png",
+                "resources/images/Player/ship (4)-18.png",
+                "resources/images/Player/ship (4)-19.png",
+                "resources/images/Player/ship (4)-20.png"
         );
-        this.currentAnimationRendererRight = new CurrentAnimationRenderer(5, "resources/images/Player/playerMY.png"
-                , "resources/playerMy19.png"
-                , "resources/playerMy18.png"
-                , "resources/playerMy17.png"
-                , "resources/playerMy16.png"
-                , "resources/playerMy15.png"
-                , "resources/playerMy14.png"
-                , "resources/playerMy13.png"
-                , "resources/playerMy12.png"
-                , "resources/playerMy11.png"
-                , "resources/playerMy10.png"
-                , "resources/playerMy9.png"
-                , "resources/playerMy8.png"
-                , "resources/playerMy7.png"
-                , "resources/playerMy6.png"
-                , "resources/playerMy5.png"
-                , "resources/playerMy3.png"
-                , "resources/playerMy2.png"
-                , "resources/playerMy1.png"
+        this.currentAnimationRendererRight = new CurrentAnimationRenderer(0, "resources/images/Player/ship (4)-1.png"
+                , "resources/images/Player/ship (4)-20.png"
+                , "resources/images/Player/ship (4)-19.png"
+                , "resources/images/Player/ship (4)-18.png"
+                , "resources/images/Player/ship (4)-17.png"
+                , "resources/images/Player/ship (4)-16.png"
+                , "resources/images/Player/ship (4)-15.png"
+                , "resources/images/Player/ship (4)-14.png"
+                , "resources/images/Player/ship (4)-13.png"
+                , "resources/images/Player/ship (4)-12.png"
+                , "resources/images/Player/ship (4)-11.png"
+                , "resources/images/Player/ship (4)-10.png"
+                , "resources/images/Player/ship (4)-9.png"
+                , "resources/images/Player/ship (4)-8.png"
+                , "resources/images/Player/ship (4)-7.png"
+                , "resources/images/Player/ship (4)-6.png"
+                , "resources/images/Player/ship (4)-5.png"
+                , "resources/images/Player/ship (4)-4.png"
+                , "resources/images/Player/ship (4)-3.png"
+                , "resources/images/Player/ship (4)-2.png"
+
         );
 
     }
@@ -95,6 +98,7 @@ public class Player extends GameObject implements PhysicBody, HitObject {
         }
         if (KeyInput.instance.rightReleased) {
             this.is = false;
+            System.out.println(currentAnimationRendererLeft.angle);
             this.currentAnimationRendererRight.isAnimation = false;
         }
         if (KeyInput.instance.upPressed) {

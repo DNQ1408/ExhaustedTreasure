@@ -9,9 +9,9 @@ public class KeyInput implements KeyListener {
 
     public static final KeyInput instance = new KeyInput();//dung de truy cap o bat cu dau thuong dung de quan ly chung 1 cv nao do
 
-    private List<Boolean> KeyPressed;
-    private List<Boolean> KeyReleased;
-    private List<Boolean> keyTyped;
+//    private List<Boolean> KeyPressed;
+//    private List<Boolean> KeyReleased;
+//    private List<Boolean> keyTyped;
 
 //    private int Number_Key = 256;
     public boolean upPressed = false;
@@ -24,6 +24,10 @@ public class KeyInput implements KeyListener {
     public boolean rightReleased = false;
     public boolean spacePressed = false;
     public boolean spaceReleased = false;
+    public boolean aPressed = false;
+    public boolean aReleased = false;
+    public boolean dPressed = false;
+    public boolean dReleased = false;
 
 //    private KeyInput() {
 //        this.KeyPressed = new ArrayList<>();
@@ -80,6 +84,12 @@ public class KeyInput implements KeyListener {
         if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
             this.rightPressed = true;
         }
+        if (e.getKeyCode() == KeyEvent.VK_A){
+            this.aPressed = true;
+        }
+        if (e.getKeyCode() == KeyEvent.VK_D){
+            this.dPressed = true;
+        }
     }
 
     @Override
@@ -101,6 +111,12 @@ public class KeyInput implements KeyListener {
         if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
             this.rightReleased = true;
         }
+        if (e.getKeyCode() == KeyEvent.VK_A){
+            this.aReleased = true;
+        }
+        if (e.getKeyCode() == KeyEvent.VK_D){
+            this.dReleased = true;
+        }
     }
 
 
@@ -115,5 +131,9 @@ public class KeyInput implements KeyListener {
         this.rightReleased = false;
         this.spacePressed = false;
         this.spaceReleased = false;
+        this.aPressed = false;
+        this.aReleased = false;
+        this.dPressed = false;
+        this.dReleased = false;
     }
 }

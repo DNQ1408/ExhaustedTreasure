@@ -16,22 +16,17 @@ public class BulletPlayer extends GameObject implements PhysicBody, HitObject {
     public Vector2D velocity;
     public BoxCollider boxCollider;
     private RunHitObject runHitObject;
-    public CurrentAnimationRenderer currentAnimationRenderer;
 
     // constructor
     public BulletPlayer() {
         this.velocity = new Vector2D();
-        this.currentAnimationRenderer = new CurrentAnimationRenderer(3,"resources/images/Bullet/BulletEnerMy.png",
-                "resources/images/Bullet/BulletWhile.png",
-                "resources/images/Bullet/BulletEnerMy.png",
-                "resources/images/Bullet/BulletWhile.png");
-        this.renderer = this.currentAnimationRenderer;
-//        this.renderer = new ImageRenderer("resources/images/Bullet/BulletEnerMy.png", 10, 10);
+        this.renderer = new ImageRenderer("resources/images/Bullet/BulletEnerMy.png", 20,20);
         this.boxCollider = new BoxCollider(10, 10);
         this.runHitObject = new RunHitObject(
 //                Enemy.class
         );
     }
+
 
     @Override
     public void run() {
