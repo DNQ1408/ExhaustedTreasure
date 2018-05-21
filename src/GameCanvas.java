@@ -14,14 +14,14 @@ public class GameCanvas extends JPanel {
     private Graphics graphics;
 
     public GameCanvas() {
-        this.setSize(1920, 1080);
+        this.setSize(1024, 600);
         this.setupBackBuffered();
        SceneManager.instance.changScene(new GamePlayScene());
         this.setVisible(true);
     }
 
     private void setupBackBuffered() {
-        this.backBuffered = new BufferedImage(1920, 1080, BufferedImage.TYPE_4BYTE_ABGR); //khoi tao object
+        this.backBuffered = new BufferedImage(1024, 600, BufferedImage.TYPE_4BYTE_ABGR); //khoi tao object
         this.graphics = this.backBuffered.getGraphics();
     }
 
