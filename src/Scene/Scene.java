@@ -1,6 +1,6 @@
 package Scene;
-//dung de chuyen doi giua cac slied
+//dung de chuyen doigiua cac slice
 public interface Scene {
-    void init();//ham de chuyen sang slide tiep theo
+    void init();//ham de chuyen sang slice tiep theo
     void deinit();//ham de xoa slice trk do
 }

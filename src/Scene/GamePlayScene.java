@@ -11,7 +11,8 @@ public class GamePlayScene implements Scene {
     @Override
     public void init() {
         GameObjectManager.instance.recycle(Background.class);
-        GameObjectManager.instance.recycle(Player.class);
+        Player player = GameObjectManager.instance.recycle(Player.class);
+        player.position.set(500,300);
         GameObjectManager.instance.recycle(EnemySpawner.class);
 //        GameObjectManager.instance.recycle(PlayerLeft.class);
 //        GameObjectManager.instance.recycle(PlayerDow.class);

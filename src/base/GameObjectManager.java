@@ -1,5 +1,6 @@
 package base;
 
+import camera.Camera;
 import game.player.player.Player;
 import physic.BoxCollider;
 import physic.PhysicBody;
@@ -84,6 +85,22 @@ public class GameObjectManager {
                 .filter(gameObject -> gameObject.isAlive)
                 .findFirst()
                 .orElse(null);
+    }
+    public Camera findCamera() {
+        return (Camera) this.list
+                .stream()
+                .filter(gameObject -> gameObject instanceof Camera)
+                .findFirst()
+                .orElse(null);
+    }
+
+    public void getPositionAfterCamera() {
+        Camera camera = GameObjectManager.instance.findCamera();
+        this.list
+                .stream()
+                .forEach(gameObject -> {
+                    gameObject.position.subtractBy(camera.position);
+                });
     }
 
     public void clear(){

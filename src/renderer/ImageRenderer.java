@@ -27,6 +27,11 @@ public class ImageRenderer implements Renderer {
         this.fillColorImage();
     }
 
+    public ImageRenderer(String path){
+        this.height = this.loadImage(path).getHeight();
+        this.width = this.loadImage(path).getWidth();
+    }
+
     public ImageRenderer(String path, int width, int height, Color color, boolean isChangeSize, int timeInterval) {
         this.image = this.loadImage(path);
         this.width = width;

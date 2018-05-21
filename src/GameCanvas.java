@@ -1,6 +1,5 @@
 import Scene.GamePlayScene;
 import Scene.SceneManager;
-import base.GameObject;
 import base.GameObjectManager;
 import input.KeyInput;
 
@@ -34,14 +33,16 @@ public class GameCanvas extends JPanel {
     }
 
     public void renderAll() {
+        GameObjectManager.instance.getPositionAfterCamera();
         GameObjectManager.instance.renderAll(this.graphics);
         this.repaint();
     }
 
     public void runAll() {
+        GameObjectManager.instance.getPositionAfterCamera();
         GameObjectManager.instance.runAll();
         SceneManager.instance.performChangSceneIfNeeded();
-        KeyInput.instance.reset();
+        KeyInput.instance.update();
     }
 
 }
