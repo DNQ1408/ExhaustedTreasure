@@ -1,6 +1,7 @@
 package base;
 
 //import action.Action;
+import renderer.AnimationRenderer;
 import renderer.Renderer;
 
 import java.awt.*;
@@ -10,6 +11,7 @@ import java.util.List;
 public class GameObject {
     public Vector2D position;
     public Renderer renderer;
+
     public boolean isAlive = true;
 //    private List<Action> actions;
 

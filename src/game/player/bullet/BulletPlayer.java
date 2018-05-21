@@ -6,6 +6,7 @@ import physic.BoxCollider;
 import physic.HitObject;
 import physic.PhysicBody;
 import physic.RunHitObject;
+import renderer.CurrentAnimationRenderer;
 import renderer.ImageRenderer;
 
 import java.awt.*;
@@ -15,12 +16,18 @@ public class BulletPlayer extends GameObject implements PhysicBody, HitObject {
     public Vector2D velocity;
     public BoxCollider boxCollider;
     private RunHitObject runHitObject;
+    public CurrentAnimationRenderer currentAnimationRenderer;
 
     // constructor
     public BulletPlayer() {
         this.velocity = new Vector2D();
-        this.renderer = new ImageRenderer("resources/images/Bullet/BulletEnerMy.png", 10, 10);
-        this.boxCollider = new BoxCollider(5, 5);
+        this.currentAnimationRenderer = new CurrentAnimationRenderer(3,"resources/images/Bullet/BulletEnerMy.png",
+                "resources/images/Bullet/BulletWhile.png",
+                "resources/images/Bullet/BulletEnerMy.png",
+                "resources/images/Bullet/BulletWhile.png");
+        this.renderer = this.currentAnimationRenderer;
+//        this.renderer = new ImageRenderer("resources/images/Bullet/BulletEnerMy.png", 10, 10);
+        this.boxCollider = new BoxCollider(10, 10);
         this.runHitObject = new RunHitObject(
 //                Enemy.class
         );
@@ -45,14 +52,4 @@ public class BulletPlayer extends GameObject implements PhysicBody, HitObject {
         return this.boxCollider;
     }
 
-    public static class ShootSingle implements Shoot {
-    //    @Override
-    //    public void run(Player player) {
-    //        BulletPlayer bulletPlayer = GameObjectManager.instance.recycle(BulletPlayer.class);
-    //        bulletPlayer.position.set(player.position);
-    //        Vector2D vector2D = new Vector2D(7, 0);
-    //        Vector2D rotate = vector2D.rotate(player.playerMove.angle);
-    //        bulletPlayer.velocity.set(rotate);
-    //    }
-    }
 }

@@ -17,7 +17,6 @@ public class CurrentAnimationRenderer implements Renderer {
     private FrameCounter frameCounter; // khoang delay giua hai lan buc anh.
     public int currentIndex; //dang ve o buc anh thu may trong list image
     public boolean isAnimation = true;
-    public int isLeftRight;
     public double angle;
 
     public CurrentAnimationRenderer( int max, String... paths) {
@@ -49,15 +48,43 @@ public class CurrentAnimationRenderer implements Renderer {
             // nếu trong bufferedImage có ảnh thì cho vẽ bức ảnh đó lên;
             graphics.drawImage(bufferedImage, (int)position.x - bufferedImage.getWidth() / 2, (int)position.y - bufferedImage.getHeight() / 2, null);
         }//(Image, Width ,Height, ImageObserver)
+
+    }
+    public void checkLeft(boolean isAnimation){
         if (!isAnimation) return;
         if (this.frameCounter.run()) {
             this.angle += 18;
+            if (this.angle >= 360){
+                this.angle = 0;
+            }
+
             if (this.currentIndex >= this.images.size() - 1) {
                 this.currentIndex = 0;
             } else {
                 this.currentIndex += 1;
             }
+
+            this.frameCounter.reset();
+        }
+
+    }
+
+    public void checkRight(boolean isAnimation){
+        if (!isAnimation) return;
+        if (this.frameCounter.run()) {
+            this.angle -= 18;
+            if (this.angle >= 360){
+                this.angle = 0;
+            }
+
+            if (this.currentIndex >= this.images.size() - 1) {
+                this.currentIndex = 0;
+            } else {
+                this.currentIndex += 1;
+            }
+
             this.frameCounter.reset();
         }
     }
+
 }

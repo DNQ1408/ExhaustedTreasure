@@ -1,7 +1,6 @@
 import Scene.GamePlayScene;
 import Scene.SceneManager;
 import base.GameObjectManager;
-import camera.Camera;
 import input.KeyInput;
 
 import javax.swing.*;
@@ -14,8 +13,6 @@ public class GameCanvas extends JPanel {
     private Graphics graphics;
 
     public GameCanvas() {
-    Camera camera = GameObjectManager.instance.recycle(Camera.class);
-       camera.position.set(300,200);
         this.setSize(1024, 600);
         this.setupBackBuffered();
        SceneManager.instance.changScene(new GamePlayScene());
@@ -36,16 +33,14 @@ public class GameCanvas extends JPanel {
     }
 
     public void renderAll() {
-        GameObjectManager.instance.getPositionAfterCamera();
         GameObjectManager.instance.renderAll(this.graphics);
         this.repaint();
     }
 
     public void runAll() {
-        GameObjectManager.instance.getPositionAfterCamera();
         GameObjectManager.instance.runAll();
         SceneManager.instance.performChangSceneIfNeeded();
-        KeyInput.instance.update();
+        KeyInput.instance.reset();
     }
 
 }
