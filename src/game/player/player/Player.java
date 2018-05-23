@@ -76,20 +76,24 @@ public class Player extends GameObject implements PhysicBody, HitObject {
             this.currentAnimationRenderer.checkRight(false);
         }
         if (KeyInput.instance.upPressed) {
-            this.defaulvelocity.y += 1;
+            this.defaulvelocity.y += 0.25;
             if (this.defaulvelocity.y == 5){
-                this.defaulvelocity.y = 0;
-            }else this.defaulvelocity.y +=1;
+                this.defaulvelocity.y = 4;
+            }else this.defaulvelocity.y +=0.25;
             this.defaulvelocity.set(0, this.defaulvelocity.y);
         }
         if (KeyInput.instance.upReleased) {
             this.defaulvelocity.set(0, this.defaulvelocity.y);
         }
         if (KeyInput.instance.downPressed) {
-            this.defaulvelocity.set(0, -5);
+            this.defaulvelocity.y -= 0.25;
+            if (this.defaulvelocity.y < 0){
+                this.defaulvelocity.y = 0;
+            }else this.defaulvelocity.y -=0.25;
+            this.defaulvelocity.set(0, this.defaulvelocity.y);
         }
         if (KeyInput.instance.downReleased) {
-            this.defaulvelocity.set(0, 0);
+
         }
 
 
