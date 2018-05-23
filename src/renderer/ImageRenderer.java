@@ -18,6 +18,7 @@ public class ImageRenderer implements Renderer {
     private Color color;
     private boolean isChangeSize = false;
     public int deltaSize = 0;
+    public RotateRenderer rotateRenderer;
     private FrameCounter frameCounter;
 
     public ImageRenderer(String path, int width, int height, Color color) {
@@ -78,19 +79,10 @@ public class ImageRenderer implements Renderer {
     @Override
     public void render(Graphics graphics, Vector2D position) {
         this.update();
+//        this.rotateRenderer = new RotateRenderer(graphics);
         graphics.drawImage(this.image, (int) position.x - this.width / 2, (int) position.y - this.height / 2, this.width, this.height, null);
 
     }
-    int i= 0;
-    public void paintComponent(Graphics g) {
-        AffineTransform at = AffineTransform.getTranslateInstance(300, 200);
-        at.rotate(Math.toRadians(i++), image.getWidth() / 2, image.getHeight() / 2);
-        at.scale(1,1);
-        Graphics2D g2 = (Graphics2D) g;
-        g2.drawImage(image, at, null);
-
-    }
-
     public void update() {
         if (!this.isChangeSize) return;
         if (this.frameCounter.run()) {

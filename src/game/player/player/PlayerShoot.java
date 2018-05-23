@@ -11,10 +11,11 @@ import java.awt.event.KeyEvent;
 public class PlayerShoot {
     private FrameCounter frameCounter;
     public BulletPlayer bulletPlayer;
-
+    public Vector2D velocitirotate = new Vector2D(0,0);
     public PlayerShoot() {
         this.frameCounter = new FrameCounter(3);
         this.bulletPlayer = new BulletPlayer();
+        this.bulletPlayer.velocity = new Vector2D();
     }
 
     public void run(Player player) {
@@ -55,17 +56,18 @@ public class PlayerShoot {
             if (frameCounter.run()){
                 BulletPlayer bulletPlayer1 = GameObjectManager.instance.recycle(BulletPlayer.class);
                 bulletPlayer1.position.set(player.position.x + 50,player.position.y);
-                bulletPlayer1.velocity.set(7, 0);
+               this.velocitirotate.set(0,7);
 
                 BulletPlayer bulletPlayer2 = GameObjectManager.instance.recycle(BulletPlayer.class);
                 bulletPlayer2.position.set(player.position.x - 50,player.position.y);
-                bulletPlayer2.velocity.set(-7, 0);
+                this.velocitirotate.set(0,-7);
                 frameCounter.reset();
             }
         }
         if (KeyInput.instance.spaceReleased){
-
+            this.velocitirotate.set(0,7);
         }
+        this.bulletPlayer.velocity.set(this.velocitirotate);
 
     }
 }

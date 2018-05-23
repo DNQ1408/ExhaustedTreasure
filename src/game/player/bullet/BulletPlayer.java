@@ -2,6 +2,7 @@ package game.player.bullet;
 
 import base.GameObject;
 import base.Vector2D;
+import game.player.player.Player;
 import physic.BoxCollider;
 import physic.HitObject;
 import physic.PhysicBody;
@@ -23,7 +24,7 @@ public class BulletPlayer extends GameObject implements PhysicBody, HitObject {
         this.renderer = new ImageRenderer("resources/images/Bullet/BulletEnerMy.png", 20,20);
         this.boxCollider = new BoxCollider(10, 10);
         this.runHitObject = new RunHitObject(
-//                Enemy.class
+
         );
     }
 
