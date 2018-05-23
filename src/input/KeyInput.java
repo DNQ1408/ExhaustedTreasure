@@ -115,7 +115,7 @@ public class KeyInput implements KeyListener {
             this.aReleased = true;
         }
         if (e.getKeyCode() == KeyEvent.VK_D){
-            this.dReleased = true;
+            this.dReleased       = true;
         }
     }
 

@@ -52,37 +52,32 @@ public class CurrentAnimationRenderer implements Renderer {
     }
     public void checkLeft(boolean isAnimation){
         if (!isAnimation) return;
-        if (this.frameCounter.run()) {
-            this.angle += 18;
-            if (this.angle > 360){
-                this.angle = 0;
-            }
-            if (this.currentIndex >= this.images.size() - 1) {
-                this.currentIndex = 0;
-            } else {
-                this.currentIndex += 1;
-            }
-            this.frameCounter.reset();
+        this.angle -= 18;
+        if (this.angle < 0){
+            this.angle = 360;
         }
-
+        if (this.currentIndex >= this.images.size() - 1) {
+            this.currentIndex = 0;
+        } else {
+            this.currentIndex += 1;
+        }
+        System.out.println("left index: " + this.currentIndex + this.angle);
     }
 
     public void checkRight(boolean isAnimation){
         if (!isAnimation) return;
-        if (this.frameCounter.run()) {
-            this.angle -= 18;
-            if (this.angle > 360){
-                this.angle = 0;
-            }
-
-            if (this.currentIndex >= this.images.size() - 1) {
-                this.currentIndex = 0;
-            } else {
-                this.currentIndex += 1;
-            }
-
-            this.frameCounter.reset();
+        this.angle += 18;
+        if (this.angle > 360){
+            this.angle = 0;
         }
+
+
+        if (this.currentIndex <= 0) {
+            this.currentIndex = this.images.size() - 1;
+        } else {
+            this.currentIndex -= 1;
+        }
+        System.out.println("right index: " + this.currentIndex + this.angle);
     }
 
 }

@@ -5,6 +5,7 @@ import base.Vector2D;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
+import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -78,6 +79,16 @@ public class ImageRenderer implements Renderer {
     public void render(Graphics graphics, Vector2D position) {
         this.update();
         graphics.drawImage(this.image, (int) position.x - this.width / 2, (int) position.y - this.height / 2, this.width, this.height, null);
+
+    }
+    int i= 0;
+    public void paintComponent(Graphics g) {
+        AffineTransform at = AffineTransform.getTranslateInstance(300, 200);
+        at.rotate(Math.toRadians(i++), image.getWidth() / 2, image.getHeight() / 2);
+        at.scale(1,1);
+        Graphics2D g2 = (Graphics2D) g;
+        g2.drawImage(image, at, null);
+
     }
 
     public void update() {
