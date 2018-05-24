@@ -24,8 +24,8 @@ public class Player extends GameObject implements PhysicBody, HitObject {
     public FrameCounter frameCounter;
 
     public Player() {
-//        this.imageRenderer = new ImageRenderer("resources/images/Player/ship (4)-1.png");
-//        this.renderer = this.imageRenderer;
+        this.imageRenderer = new ImageRenderer("resources/images/Player/ship (4)-1.png");
+        this.renderer = this.imageRenderer;
         this.frameCounter = new FrameCounter(3);
         this.bulletPlayer = new BulletPlayer();
         this.velocity = new Vector2D();

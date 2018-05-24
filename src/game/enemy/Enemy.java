@@ -1,20 +1,32 @@
 package game.enemy;
 
+import base.FrameCounter;
 import base.GameObject;
+import base.GameObjectManager;
 import base.Vector2D;
 import physic.BoxCollider;
 import physic.PhysicBody;
 import renderer.ImageRenderer;
 
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.geom.AffineTransform;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
 public class Enemy extends GameObject implements PhysicBody{
-
-    private Vector2D velocity;
+    private EnemyMove enemyMove;
     public BoxCollider boxCollider;
-
+    public FrameCounter frameCounter;
     public Enemy() {
-        this.renderer = new ImageRenderer("resources/images/Enemy/ship_(2).png", 50,70);
-        this.velocity = new Vector2D(0,0);
-        this.boxCollider = new BoxCollider(50,70);
+        this.frameCounter = new FrameCounter(30);
+        this.enemyMove = new EnemyMove();
+        this.renderer = new ImageRenderer("resources/images/Enemy/ship_(2).png", 25,35);
+        this.position.set(30,20);
+        this.boxCollider = new BoxCollider(25,35);
+
     }
 
     @Override
@@ -22,6 +34,12 @@ public class Enemy extends GameObject implements PhysicBody{
         super.run();
         this.boxCollider.position.set(this.position);
 //        System.out.println("Enemy running");
+        this.enemyMove.run(this);
+        if (frameCounter.run()){
+            BulletEnemy bulletEnemy = GameObjectManager.instance.recycle(BulletEnemy.class);
+            bulletEnemy.position.set(this.position);
+            frameCounter.reset();
+        }
     }
 
     @Override

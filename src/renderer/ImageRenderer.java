@@ -18,7 +18,6 @@ public class ImageRenderer implements Renderer {
     private Color color;
     private boolean isChangeSize = false;
     public int deltaSize = 0;
-    public RotateRenderer rotateRenderer;
     private FrameCounter frameCounter;
 
     public ImageRenderer(String path, int width, int height, Color color) {
