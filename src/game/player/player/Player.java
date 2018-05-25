@@ -5,10 +5,12 @@ import base.GameObject;
 import base.GameObjectManager;
 import base.Vector2D;
 import game.player.bullet.BulletPlayer;
+import game.skerry.Skerry;
 import input.KeyInput;
 import physic.BoxCollider;
 import physic.HitObject;
 import physic.PhysicBody;
+import physic.RunHitObject;
 import renderer.*;
 
 import java.awt.event.KeyEvent;
@@ -22,6 +24,8 @@ public class Player extends GameObject implements PhysicBody, HitObject {
     public ImageRenderer imageRenderer;
     public BulletPlayer bulletPlayer;
     public FrameCounter frameCounter;
+    public BoxCollider boxCollider;
+    public RunHitObject runHitObject;
 
     public Player() {
         this.imageRenderer = new ImageRenderer("resources/images/Player/ship (4)-1.png");
@@ -52,8 +56,10 @@ public class Player extends GameObject implements PhysicBody, HitObject {
 
         );
         this.renderer = this.currentAnimationRenderer;
-
-
+        this.runHitObject = new RunHitObject(
+                Skerry.class
+        );
+        this.boxCollider = new BoxCollider(50, 50);
     }
 
 
@@ -181,6 +187,8 @@ public class Player extends GameObject implements PhysicBody, HitObject {
         this.bulletPlayer.velocity.set(this.defaulvelocity.rotate(this.currentAnimationRenderer.angle));
         this.velocity.set(this.defaulvelocity.rotate(this.currentAnimationRenderer.angle));
         this.position.addUp(this.velocity);
+        this.boxCollider.position.set(this.position.x - 25, this.position.y - 25);
+        this.runHitObject.run(this);
 
 
     }
@@ -188,11 +196,11 @@ public class Player extends GameObject implements PhysicBody, HitObject {
 
     @Override
     public void getHit(GameObject gameObject) {
-
+        this.isAlive = false;
     }
 
     @Override
     public BoxCollider getBoxCollider() {
-        return null;
+        return this.boxCollider;
     }
 }

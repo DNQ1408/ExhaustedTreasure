@@ -70,7 +70,13 @@ public class GameObjectManager {
                 .filter(gameObject -> gameObject.isAlive)
                 .filter(gameObject -> gameObject instanceof PhysicBody)
                 .filter(gameObject -> {
+
                     BoxCollider other = ((PhysicBody) gameObject).getBoxCollider();
+                    if (other == null) {
+
+                        System.out.println("not found box");
+                        return false;
+                    }
                     return boxCollide.checkCollider(other);
                 })
                 .findFirst()
