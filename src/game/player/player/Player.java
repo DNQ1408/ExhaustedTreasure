@@ -6,6 +6,7 @@ import base.GameObjectManager;
 import base.Vector2D;
 import game.player.bullet.BulletPlayer;
 import game.skerry.Skerry;
+import game.treasure.Treasure;
 import input.KeyInput;
 import physic.BoxCollider;
 import physic.HitObject;
@@ -57,7 +58,8 @@ public class Player extends GameObject implements PhysicBody, HitObject {
         );
         this.renderer = this.currentAnimationRenderer;
         this.runHitObject = new RunHitObject(
-                Skerry.class
+                Skerry.class,
+                Treasure.class
         );
         this.boxCollider = new BoxCollider(50, 50);
     }

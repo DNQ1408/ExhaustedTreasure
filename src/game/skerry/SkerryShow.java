@@ -32,5 +32,11 @@ public class SkerryShow {
         skerry04.renderer = new ImageRenderer("resources/images/SkerryAndTreasure/skerry3.png", 70, 70);
         skerry04.boxCollider.width = 70;
         skerry04.boxCollider.height = 70;
+
+        Skerry skerry05 = GameObjectManager.instance.recycle(Skerry.class);
+        skerry05.position.set(600, 40);
+        skerry05.renderer = new ImageRenderer("resources/images/SkerryAndTreasure/skerry2.png", 50, 50);
+        skerry05.boxCollider.width = 50;
+        skerry05.boxCollider.height = 50;
     }
 }
